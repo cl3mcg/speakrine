@@ -1,0 +1,9 @@
+# Exclude VSCode configuration folder
+.vscode/
+
+# Exclude JetBrains IDE configuration folders
+.idea/
+
+# Exclude the .env file from the repository
+.env
+

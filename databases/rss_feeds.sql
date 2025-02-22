@@ -34,6 +34,6 @@ CREATE TABLE rss_items (
     updated_date DATETIME DEFAULT NULL, -- The updated date of the entry (for ATOM feeds)
     extraction_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- When the entry was extracted
     is_read BOOL DEFAULT FALSE NOT NULL, -- Check if the article is read or not
-    is_hidden BOOL DEFAULT FALSE NOT NULL, -- Check if the article is read or not 
+    is_hidden BOOL DEFAULT FALSE NOT NULL, -- Check if the article is hidden or not 
     FOREIGN KEY (rss_feed_id) REFERENCES rss_feeds(id) ON DELETE CASCADE -- Link to rss_feeds table with ON DELETE CASCADE
 );

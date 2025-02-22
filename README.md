@@ -15,7 +15,7 @@ _Speakrine_ is a Go application designed to fetch, clean, and manage data from R
 - **Periodic RSS Feed Fetching**: Fetches RSS feeds at regular intervals (every 20 minutes).
 - **HTML Content Cleaning**: Cleans HTML content from RSS feed items to ensure only plain text is stored.
 - **Database Integration**: Stores fetched and cleaned RSS data in a MySQL database.
-- **Environment Configuration**: Uses environment variables for configuration, including database credentials and SMTP settings.
+- **Environment Configuration**: Uses environment variables for configuration, including database credentials and Mistral AI API key.
 
 ## Configuration
 

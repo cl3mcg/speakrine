@@ -68,4 +68,5 @@ The assets directory contains any static files or resources used by the applicat
 ## License
 
 This project is licensed under the Creative Commons BY-NC-SA 4.0 License - see the [LICENSE](LICENSE) file for details.
+
 Attribution Clément CHAIB-GALLI - https://github.com/cl3mcg
